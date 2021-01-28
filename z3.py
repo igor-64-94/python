@@ -1,0 +1,1 @@
+print(*[e for e in range(20, 241) if (not(e % 20) or not(e % 21))])
